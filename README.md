@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole ^ --add-data "data\\MatureData-WindowsClient.pak;data" ^ --add-data "data\\MatureData-WindowsClient.sig;data" ^ --add-data "data\\MatureData-WindowsClient.ucas;data"  ^ --add-data "data\\MatureData-WindowsClient.utoc;data"  ^ -i loli.ico ^ mau.py
